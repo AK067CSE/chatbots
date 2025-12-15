@@ -1,0 +1,18 @@
+{
+  "metadata": {
+    "po_id": "UNKNOWN",
+    "invoice_id": "UNKNOWN"
+  },
+  "summary_statistics": {
+    "total_items_in_po": 0,
+    "total_items_in_invoice": 0,
+    "items_matching": 0,
+    "items_with_discrepancies": 0,
+    "po_total_value": 7512.72,
+    "invoice_total_value": 7682.38,
+    "value_difference": -169.66,
+    "variance_percentage": -2.26
+  },
+  "discrepancies": [],
+  "summary_text": "COMPARISON SUMMARY:\n- Total Discrepancies Found: 0\n- Quantity Mismatches: 0\n- Price Mismatches: 0\n- Items Missing from Invoice: 0\n- Extra Items in Invoice: 0\n- Subtotal Difference: $-169.66\n- Grand Total Difference: $-169.66"
+}

@@ -1,0 +1,30 @@
+{
+  "purchase_order": {
+    "document_type": "PURCHASE_ORDER",
+    "document_id": "UNKNOWN",
+    "date": "2025-12-15",
+    "vendor": "Logo Here]",
+    "customer": "Unknown Customer",
+    "items": [],
+    "summary": {
+      "subtotal": 7512.72,
+      "tax": 528.08,
+      "grand_total": 7512.72
+    },
+    "extraction_timestamp": "2025-12-15T19:50:26.640864"
+  },
+  "proforma_invoice": {
+    "document_type": "PROFORMA_INVOICE",
+    "document_id": "UNKNOWN",
+    "date": "2025-12-15",
+    "vendor": "Logo Here]",
+    "customer": "Unknown Customer",
+    "items": [],
+    "summary": {
+      "subtotal": 7682.38,
+      "tax": 550.8,
+      "grand_total": 7682.38
+    },
+    "extraction_timestamp": "2025-12-15T19:50:26.640872"
+  }
+}

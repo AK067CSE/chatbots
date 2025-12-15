@@ -1,0 +1,258 @@
+{
+  "discrepancy_report": {
+    "metadata": {
+      "po_id": "UNKNOWN",
+      "invoice_id": "UNKNOWN",
+      "generated_at": "2025-12-15T22:26:49.208558",
+      "total_items_compared": 10
+    },
+    "item_level_comparison": [
+      {
+        "SKU": "A1004",
+        "Description": "1080p Webcam",
+        "Qty_Ordered": 18.0,
+        "Qty_Invoiced": 18.0,
+        "Unit_Price_Ordered": 39.99,
+        "Unit_Price_Invoiced": 35.99,
+        "Discount_Pct_Ordered": 8.0,
+        "Discount_Pct_Invoiced": 8.0,
+        "Line_Total_Ordered": 711.9,
+        "Line_Total_Invoiced": 640.71,
+        "Quantity_Discrepancy": false,
+        "Price_Discrepancy": true,
+        "Total_Discrepancy": true,
+        "Severity": "HIGH",
+        "Reason": "Unit price mismatch, Discount percentage mismatch leading to different line total"
+      },
+      {
+        "SKU": "A1008",
+        "Description": "HDMI Cable (2m)",
+        "Qty_Ordered": 40.0,
+        "Qty_Invoiced": 40.0,
+        "Unit_Price_Ordered": 6.8,
+        "Unit_Price_Invoiced": 6.8,
+        "Discount_Pct_Ordered": 0.0,
+        "Discount_Pct_Invoiced": 0.0,
+        "Line_Total_Ordered": 292.4,
+        "Line_Total_Invoiced": 292.4,
+        "Quantity_Discrepancy": false,
+        "Price_Discrepancy": false,
+        "Total_Discrepancy": false,
+        "Severity": "NONE",
+        "Reason": "Perfect match"
+      },
+      {
+        "SKU": "A1006",
+        "Description": "Laptop Stand (Aluminum)",
+        "Qty_Ordered": 20.0,
+        "Qty_Invoiced": 20.0,
+        "Unit_Price_Ordered": 27.4,
+        "Unit_Price_Invoiced": 27.4,
+        "Discount_Pct_Ordered": 0.0,
+        "Discount_Pct_Invoiced": 0.0,
+        "Line_Total_Ordered": 589.1,
+        "Line_Total_Invoiced": 589.1,
+        "Quantity_Discrepancy": false,
+        "Price_Discrepancy": false,
+        "Total_Discrepancy": false,
+        "Severity": "NONE",
+        "Reason": "Perfect match"
+      },
+      {
+        "SKU": "A1009",
+        "Description": "Laser Printer",
+        "Qty_Ordered": 6.0,
+        "Qty_Invoiced": 6.0,
+        "Unit_Price_Ordered": 149.0,
+        "Unit_Price_Invoiced": 149.0,
+        "Discount_Pct_Ordered": 7.0,
+        "Discount_Pct_Invoiced": 7.0,
+        "Line_Total_Ordered": 893.78,
+        "Line_Total_Invoiced": 893.42,
+        "Quantity_Discrepancy": false,
+        "Price_Discrepancy": false,
+        "Total_Discrepancy": true,
+        "Severity": "MEDIUM",
+        "Reason": "Line total mismatch"
+      },
+      {
+        "SKU": "A1002",
+        "Description": "Mechanical Keyboard",
+        "Qty_Ordered": 15.0,
+        "Qty_Invoiced": 15.0,
+        "Unit_Price_Ordered": 62.0,
+        "Unit_Price_Invoiced": 62.0,
+        "Discount_Pct_Ordered": 10.0,
+        "Discount_Pct_Invoiced": 10.0,
+        "Line_Total_Ordered": 899.77,
+        "Line_Total_Invoiced": 906.75,
+        "Quantity_Discrepancy": false,
+        "Price_Discrepancy": false,
+        "Total_Discrepancy": true,
+        "Severity": "MEDIUM",
+        "Reason": "Line total mismatch"
+      },
+      {
+        "SKU": "A1005",
+        "Description": "Noise-Canceling Headset",
+        "Qty_Ordered": 12.0,
+        "Qty_Invoiced": 12.0,
+        "Unit_Price_Ordered": 89.0,
+        "Unit_Price_Invoiced": 89.0,
+        "Discount_Pct_Ordered": 12.0,
+        "Discount_Pct_Invoiced": 7.5,
+        "Line_Total_Ordered": 1010.33,
+        "Line_Total_Invoiced": 1061.99,
+        "Quantity_Discrepancy": false,
+        "Price_Discrepancy": false,
+        "Total_Discrepancy": true,
+        "Severity": "MEDIUM",
+        "Reason": "Discount percentage mismatch leading to different line total"
+      },
+      {
+        "SKU": "A1010",
+        "Description": "Office Chair (Ergonomic)",
+        "Qty_Ordered": 8.0,
+        "Qty_Invoiced": 8.0,
+        "Unit_Price_Ordered": 129.5,
+        "Unit_Price_Invoiced": 148.93,
+        "Discount_Pct_Ordered": 6.0,
+        "Discount_Pct_Invoiced": 6.0,
+        "Line_Total_Ordered": 1046.88,
+        "Line_Total_Invoiced": 1203.91,
+        "Quantity_Discrepancy": false,
+        "Price_Discrepancy": true,
+        "Total_Discrepancy": true,
+        "Severity": "HIGH",
+        "Reason": "Unit price mismatch, Discount percentage mismatch leading to different line total"
+      },
+      {
+        "SKU": "A1007",
+        "Description": "Portable SSD 1TB",
+        "Qty_Ordered": 10.0,
+        "Qty_Invoiced": 10.0,
+        "Unit_Price_Ordered": 99.99,
+        "Unit_Price_Invoiced": 104.99,
+        "Discount_Pct_Ordered": 5.0,
+        "Discount_Pct_Invoiced": 5.0,
+        "Line_Total_Ordered": 1021.15,
+        "Line_Total_Invoiced": 1072.21,
+        "Quantity_Discrepancy": false,
+        "Price_Discrepancy": true,
+        "Total_Discrepancy": true,
+        "Severity": "MEDIUM",
+        "Reason": "Unit price mismatch, Discount percentage mismatch leading to different line total"
+      },
+      {
+        "SKU": "A1003",
+        "Description": "USB-C Hub (7-in-1)",
+        "Qty_Ordered": 30.0,
+        "Qty_Invoiced": 30.0,
+        "Unit_Price_Ordered": 22.75,
+        "Unit_Price_Invoiced": 22.75,
+        "Discount_Pct_Ordered": 0.0,
+        "Discount_Pct_Invoiced": 0.0,
+        "Line_Total_Ordered": 733.69,
+        "Line_Total_Invoiced": 733.69,
+        "Quantity_Discrepancy": false,
+        "Price_Discrepancy": false,
+        "Total_Discrepancy": false,
+        "Severity": "NONE",
+        "Reason": "Perfect match"
+      },
+      {
+        "SKU": "A1001",
+        "Description": "Wireless Mouse",
+        "Qty_Ordered": 25.0,
+        "Qty_Invoiced": 25.0,
+        "Unit_Price_Ordered": 14.5,
+        "Unit_Price_Invoiced": 15.95,
+        "Discount_Pct_Ordered": 5.0,
+        "Discount_Pct_Invoiced": 5.0,
+        "Line_Total_Ordered": 370.2,
+        "Line_Total_Invoiced": 407.22,
+        "Quantity_Discrepancy": false,
+        "Price_Discrepancy": true,
+        "Total_Discrepancy": true,
+        "Severity": "MEDIUM",
+        "Reason": "Unit price mismatch, Discount percentage mismatch leading to different line total"
+      }
+    ],
+    "summary_metrics": {
+      "Subtotal": {
+        "po": 7512.72,
+        "pi": 7682.38,
+        "difference": 169.66
+      },
+      "Discounts": {
+        "po": 471.61,
+        "pi": 431.42,
+        "difference": -40.18
+      },
+      "Taxable_Amount": {
+        "po": 7041.11,
+        "pi": 7250.96,
+        "difference": 209.85
+      },
+      "Tax": {
+        "po": 528.08,
+        "pi": 550.8,
+        "difference": 22.71
+      },
+      "Grand_Total": {
+        "po": 7569.2,
+        "pi": 7801.4,
+        "difference": 232.2
+      }
+    },
+    "products_with_mismatches": [
+      {
+        "SKU": "A1004",
+        "Description": "1080p Webcam",
+        "Reason": "Unit price mismatch, Discount percentage mismatch leading to different line total"
+      },
+      {
+        "SKU": "A1009",
+        "Description": "Laser Printer",
+        "Reason": "Line total mismatch"
+      },
+      {
+        "SKU": "A1002",
+        "Description": "Mechanical Keyboard",
+        "Reason": "Line total mismatch"
+      },
+      {
+        "SKU": "A1005",
+        "Description": "Noise-Canceling Headset",
+        "Reason": "Discount percentage mismatch leading to different line total"
+      },
+      {
+        "SKU": "A1010",
+        "Description": "Office Chair (Ergonomic)",
+        "Reason": "Unit price mismatch, Discount percentage mismatch leading to different line total"
+      },
+      {
+        "SKU": "A1007",
+        "Description": "Portable SSD 1TB",
+        "Reason": "Unit price mismatch, Discount percentage mismatch leading to different line total"
+      },
+      {
+        "SKU": "A1001",
+        "Description": "Wireless Mouse",
+        "Reason": "Unit price mismatch, Discount percentage mismatch leading to different line total"
+      }
+    ],
+    "total_quantities_and_values": {
+      "total_quantity_ordered": 184,
+      "total_quantity_invoiced": 184,
+      "total_value_ordered": 7569.2,
+      "total_value_invoiced": 7801.4
+    }
+  },
+  "bonus_alerts": [
+    "ALERT: Significant total value discrepancy detected. PO Total: $7,569.20 vs. PI Total: $7,801.40. Difference: +$232.20. Please review.",
+    "ALERT: SKU A1010 'Office Chair (Ergonomic)' has a price increase of $19.43 per unit (from $129.50 to $148.93). This changes the line total by $157.03.",
+    "WARNING: The Proforma Invoice for SKU A1009 'Laser Printer' shows an extremely long decimal for Discount Amount (62.58000000000001). This may indicate a rounding or calculation error in the invoice system.",
+    "RECOMMENDATION: Contact the supplier to clarify pricing discrepancies for SKUs A1004, A1010 before payment. Verify if the higher prices are intentional or errors."
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "metadata": {
+    "po_id": "UNKNOWN",
+    "invoice_id": "UNKNOWN",
+    "generated_at": "2025-12-15T19:50:26.641595",
+    "total_items_po": 0,
+    "total_items_invoice": 0,
+    "matching_items": 0,
+    "discrepant_items": 0
+  },
+  "quantity_analysis": [],
+  "price_analysis": [],
+  "totals_analysis": {
+    "po_subtotal": 7512.72,
+    "pi_subtotal": 7682.38,
+    "subtotal_difference": -169.66,
+    "subtotal_variance_pct": -2.26,
+    "po_grand_total": 7512.72,
+    "pi_grand_total": 7682.38,
+    "grand_total_difference": -169.66,
+    "grand_total_variance_pct": -2.26
+  },
+  "mismatches_summary": [],
+  "alerts": []
+}

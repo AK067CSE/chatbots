@@ -1,0 +1,11 @@
+SKU,Description,Qty_Ordered,Qty_Invoiced,Qty_Diff,Unit_Price_Ordered,Unit_Price_Invoiced,Price_Diff,Discount_Pct_Ordered,Discount_Pct_Invoiced,Line_Total_Ordered,Line_Total_Invoiced,Total_Diff,Quantity_Discrepancy,Price_Discrepancy,Total_Discrepancy,Severity,Reason
+A1004,1080p Webcam,18.0,18.0,0.0,39.99,35.99,-4.0,8.0,8.0,711.9,640.71,-71.19,False,True,True,HIGH,"Unit price mismatch, Discount percentage mismatch leading to different line total"
+A1008,HDMI Cable (2m),40.0,40.0,0.0,6.8,6.8,0.0,0.0,0.0,292.4,292.4,0.0,False,False,False,NONE,Perfect match
+A1006,Laptop Stand (Aluminum),20.0,20.0,0.0,27.4,27.4,0.0,0.0,0.0,589.1,589.1,0.0,False,False,False,NONE,Perfect match
+A1009,Laser Printer,6.0,6.0,0.0,149.0,149.0,0.0,7.0,7.0,893.78,893.42,-0.36,False,False,True,MEDIUM,Line total mismatch
+A1002,Mechanical Keyboard,15.0,15.0,0.0,62.0,62.0,0.0,10.0,10.0,899.77,906.75,6.98,False,False,True,MEDIUM,Line total mismatch
+A1005,Noise-Canceling Headset,12.0,12.0,0.0,89.0,89.0,0.0,12.0,7.5,1010.33,1061.99,51.66,False,False,True,MEDIUM,Discount percentage mismatch leading to different line total
+A1010,Office Chair (Ergonomic),8.0,8.0,0.0,129.5,148.93,19.43,6.0,6.0,1046.88,1203.91,157.03,False,True,True,HIGH,"Unit price mismatch, Discount percentage mismatch leading to different line total"
+A1007,Portable SSD 1TB,10.0,10.0,0.0,99.99,104.99,5.0,5.0,5.0,1021.15,1072.21,51.06,False,True,True,MEDIUM,"Unit price mismatch, Discount percentage mismatch leading to different line total"
+A1003,USB-C Hub (7-in-1),30.0,30.0,0.0,22.75,22.75,0.0,0.0,0.0,733.69,733.69,0.0,False,False,False,NONE,Perfect match
+A1001,Wireless Mouse,25.0,25.0,0.0,14.5,15.95,1.45,5.0,5.0,370.2,407.22,37.02,False,True,True,MEDIUM,"Unit price mismatch, Discount percentage mismatch leading to different line total"

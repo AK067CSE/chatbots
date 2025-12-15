@@ -1,0 +1,69 @@
+2025-12-15 16:09:56.894631: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2025-12-15 16:10:05.258339: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+WARNING:tensorflow:From C:\Users\abhik\AppData\Local\Programs\Python\Python313\Lib\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+Traceback (most recent call last):
+  File "c:\Users\abhik\Downloads\sales\salesbot\scripts\test_integration.py", line 73, in test_orchestrator
+    orchestrator = MultiAgentOrchestrator()
+  File "c:\Users\abhik\Downloads\sales\salesbot\src\agents\langgraph_multi_agent.py", line 335, in __init__
+    self.rag_agent = RAGEnhancementAgent(llm)
+                     ~~~~~~~~~~~~~~~~~~~^^^^^
+  File "c:\Users\abhik\Downloads\sales\salesbot\src\agents\langgraph_multi_agent.py", line 281, in __init__
+    self.rag_agent = RAGAgent()
+                     ~~~~~~~~^^
+  File "c:\Users\abhik\Downloads\sales\salesbot\src\agents\langgraph_multi_agent.py", line 98, in __init__
+    raise RuntimeError("RAGAgent not available in this environment")
+RuntimeError: RAGAgent not available in this environment
+
+======================================================================
+GEMMA FINE-TUNING INTEGRATION TEST
+======================================================================
+
+======================================================================
+Verifying Training Data
+======================================================================
+[OK] Training data found
+     Total examples: 68
+     First example keys: ['instruction', 'input', 'output', 'query_type', 'brand', 'month', 'year', 'prompt']
+     Query types:
+       - active_store_summary: 2
+       - active_store_total: 6
+       - active_store_yoy: 3
+       - sales_summary: 2
+       - sales_top_n: 3
+       - sales_total: 48
+       - sales_yoy: 4
+
+======================================================================
+Testing RAG System
+======================================================================
+[WARNING] RAG system error: Could not import sentence_transformers python package. Please install it with `pip install sentence-transformers`.
+
+======================================================================
+Testing Gemma Model Loading
+======================================================================
+[INFO] Gemma model not found
+[INFO] System will use SQL templates as fallback
+       Checked paths:
+         - models/gemma-2b-text2sql-merged
+         - models/gemma-2b-text2sql
+
+======================================================================
+Testing Multi-Agent Orchestrator
+======================================================================
+[ERROR] Orchestrator failed: RAGAgent not available in this environment
+
+======================================================================
+Test Summary
+======================================================================
+[OK] Training Data
+[WARN] RAG System
+[WARN] Gemma Loading
+[WARN] Orchestrator
+
+======================================================================
+SOME TESTS WARNING
+System will use templates as fallback
+Fine-tune the model with: python scripts/finetune_gemma.py
+======================================================================
+
