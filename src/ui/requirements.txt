@@ -7,6 +7,7 @@ langchain
 langchain-community
 langchain-core
 langgraph
+langchain_chroma
 
 openai
 groq
